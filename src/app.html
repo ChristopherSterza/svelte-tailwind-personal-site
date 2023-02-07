@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    %sveltekit.head%
+    <!-- Needed for p5.js and the background animation -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+    <script src="/src/assets/sketches/sketch1.js"></script>
+    <!-- <script src="/src/assets/sketches/sketch2.js"></script> -->
+  </body>
 </html>
