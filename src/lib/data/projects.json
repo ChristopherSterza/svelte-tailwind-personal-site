@@ -1,0 +1,20 @@
+{
+  "projects": [
+      {
+          "name": "Deforestation Detector",
+          "description": "The description for Deforestation Detector.",
+          "thumbnailImage": "/src/assets/png/deforestation-detector.png",
+          "thumbnailScale": "0.6",
+          "url": "https://github.com/Deforestation-Detector/web",
+          "language": "Javascript"
+      },
+      {
+          "name": "Slug Cache",
+          "description": "The description for Slug Cache.",
+          "thumbnailImage": "/src/assets/png/deforestation-detector.png",
+          "thumbnailScale": "0.35",
+          "url": "https://github.com/UCSC-Geocaching/slugcache",
+          "language": "Python"
+      }
+  ]
+}

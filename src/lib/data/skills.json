@@ -1,0 +1,25 @@
+{
+  "skills": [
+      {
+          "name": "Programming & Software Development",
+          "knowledgeLevel": 85,
+          "labels": [
+              "rust",
+              "ruby",
+              "bash",
+              "qml",
+              "neovim",
+              "vscode"
+          ]
+      },
+      {
+          "name": "Linux & Free Software",
+          "knowledgeLevel": 85,
+          "labels": [
+              "arch linux",
+              "kde",
+              "bash"
+          ]
+      }
+  ]
+}
