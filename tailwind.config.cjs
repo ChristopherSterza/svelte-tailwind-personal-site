@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./src/**/*.{svelte,html,js,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Montserrat', 'sans-serif'],
+        header: ['Quicksand', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
