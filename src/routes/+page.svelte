@@ -17,5 +17,4 @@
 <main class:hidden={isLoading}>
   <BackgroundComponent bind:isLoading />
   <HomeSection />
-  <div class="h-screen" />
 </main>
