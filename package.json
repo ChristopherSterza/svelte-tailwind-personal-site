@@ -27,5 +27,8 @@
 		"commitizen": {
 			"path": "./node_modules/cz-conventional-changelog"
 		}
+	},
+	"dependencies": {
+		"boxicons": "^2.1.4"
 	}
 }
