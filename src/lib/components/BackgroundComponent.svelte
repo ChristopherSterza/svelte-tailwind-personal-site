@@ -1,6 +1,8 @@
 <script>
   import P5 from 'p5-svelte';
 
+  export let isLoading = true;
+
   let backgroundSystem1;
   let backgroundSystem2;
   let color1 = 'rgba(172, 255, 26, 0.2)';
@@ -13,6 +15,8 @@
       p5.createCanvas(innerWidth, innerHeight);
       backgroundSystem1 = new ParticleSystem(10, color1);
       backgroundSystem2 = new ParticleSystem(14, color2);
+
+      isLoading = false;
     };
 
     p5.draw = () => {
