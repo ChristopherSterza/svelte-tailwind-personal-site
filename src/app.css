@@ -6,6 +6,7 @@
 
 /* html selectors to hide scrollbar */
 html {
+  background-color: #1d1d1d;
   /* IE and Edge */
   -ms-overflow-style: none;
 
