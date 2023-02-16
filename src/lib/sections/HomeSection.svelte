@@ -25,7 +25,13 @@
       <h1 class="text-xl font-extrabold">
         <span class="text-lime-400">HI</span> THERE! I'M
       </h1>
-      <p class="mb-4 text-6xl font-semibold break-words">Chris Sterza</p>
+      <!-- #TODO: redo this in a more svelte-eque way. -->
+      <p class="mb-4 text-6xl font-semibold break-words md:hidden">
+        Chris Sterza
+      </p>
+      <p class="hidden mb-4 text-6xl font-semibold break-words md:block">
+        Christopher Sterza
+      </p>
 
       <!-- Description List -->
       <ul class="list-inside list text-lime-400 text-xl mb-6">
