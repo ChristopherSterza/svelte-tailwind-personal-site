@@ -19,5 +19,4 @@
   <BackgroundComponent bind:isLoading />
   <HomeSection />
   <ProjectSection />
-  <div class="h-screen" />
 </main>
