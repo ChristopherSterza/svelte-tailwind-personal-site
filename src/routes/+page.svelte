@@ -3,6 +3,7 @@
   import LoadingScreen from '../lib/components/LoadingScreen.svelte';
   import HomeSection from '../lib/sections/HomeSection.svelte';
   import ProjectSection from '../lib/sections/ProjectSection.svelte';
+  import SkillSection from '../lib/sections/SkillSection.svelte';
 
   let isLoading = true;
 </script>
@@ -19,4 +20,5 @@
   <BackgroundComponent bind:isLoading />
   <HomeSection />
   <ProjectSection />
+  <SkillSection />
 </main>

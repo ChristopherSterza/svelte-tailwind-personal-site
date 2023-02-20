@@ -13,7 +13,7 @@
 </script>
 
 <div
-  class="flex w-[500px] min-w-[300px] max-w-full aspect-[1.61/1] relative overflow-hidden group sm:-skew-x-[5deg]"
+  class="flex w-[500px] min-w-[300px] max-w-full aspect-[1.61/1] relative overflow-hidden group sm:-skew-x-[5deg] rounded-lg"
 >
   <img
     src={thumbnail}
@@ -40,7 +40,7 @@
             href={liveURL}
             target="_blank"
             rel="noreferrer"
-            class="flex items-center px-3 py-2 bg-lime-500 hover:bg-lime-600"
+            class="flex items-center px-3 py-2 bg-lime-500 hover:bg-lime-600 rounded-lg"
           >
             <i class="bx bx-world px-1" />
             <p>LIVE SITE</p>
@@ -51,7 +51,7 @@
             href={sourceURL}
             target="_blank"
             rel="noreferrer"
-            class="flex items-center px-3 py-2 bg-lime-500 hover:bg-lime-600"
+            class="flex items-center px-3 py-2 bg-lime-500 hover:bg-lime-600 rounded-lg"
           >
             <i class="bx bx-code pr-2" />
             <p>SOURCE</p>
@@ -64,7 +64,7 @@
         {#each languages as language}
           <!-- For some reason, we need flex and items-center to align text in middle -->
           <p
-            class="hidden sm:flex items-center px-2 uppercase text-[10px] bg-gray-600 rounded-full"
+            class="hidden sm:flex items-center px-2 uppercase text-[10px] bg-gray-600 rounded-lg"
           >
             {language}
           </p>
