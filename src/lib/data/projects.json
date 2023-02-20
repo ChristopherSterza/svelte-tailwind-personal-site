@@ -3,7 +3,7 @@
         {
             "name": "Deforestation Detector",
             "description": "A web app designed to promote awareness of deforestation in the amazon.",
-            "thumbnailImage": "/src/lib/assets/png/DeforestationDetector.png",
+            "thumbnailImage": "/assets/png/DeforestationDetector.png",
             "thumbnailScale": "1.2",
             "liveURL": "https://deforestationdetector.com",
             "sourceURL": "https://github.com/Deforestation-Detector/web",
@@ -15,8 +15,8 @@
         },
         {
             "name": "Slug Cache",
-            "description": "A Geocaching app to encourage UCSC students to explore their campus.",
-            "thumbnailImage": "/src/lib/assets/png/SlugCache.png",
+            "description": "A Geocaching app to encourage UCSC students to explore their gorgeous campus.",
+            "thumbnailImage": "/assets/png/SlugCache.png",
             "thumbnailScale": "1.5",
             "liveURL": "",
             "sourceURL": "https://github.com/UCSC-Geocaching/slugcache",
@@ -29,7 +29,7 @@
         {
             "name": "Advent of Code",
             "description": "My solutions to the 2022 Advent of Code, a collection of Christmas themed programming problems.",
-            "thumbnailImage": "/src/lib/assets/png/AoC.png",
+            "thumbnailImage": "/assets/png/AoC.png",
             "thumbnailScale": "1",
             "liveURL": "",
             "sourceURL": "https://github.com/ChristopherSterza/advent-of-code-2022",

@@ -8,11 +8,12 @@
   export let thumbnailScale = '1';
   export let alt = '';
 
+  // Limit the languages to fit on the card
   languages = languages.slice(0, 3);
 </script>
 
 <div
-  class="flex w-[500px] min-w-[300px] max-w-full aspect-[1.61/1] relative overflow-clip group sm:-skew-x-[5deg]"
+  class="flex w-[500px] min-w-[300px] max-w-full aspect-[1.61/1] relative overflow-hidden group sm:-skew-x-[5deg]"
 >
   <img
     src={thumbnail}
