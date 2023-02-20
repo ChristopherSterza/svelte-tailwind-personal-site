@@ -1,20 +1,41 @@
 {
-  "projects": [
-      {
-          "name": "Deforestation Detector",
-          "description": "The description for Deforestation Detector.",
-          "thumbnailImage": "/src/assets/png/deforestation-detector.png",
-          "thumbnailScale": "0.6",
-          "url": "https://github.com/Deforestation-Detector/web",
-          "language": "Javascript"
-      },
-      {
-          "name": "Slug Cache",
-          "description": "The description for Slug Cache.",
-          "thumbnailImage": "/src/assets/png/deforestation-detector.png",
-          "thumbnailScale": "0.35",
-          "url": "https://github.com/UCSC-Geocaching/slugcache",
-          "language": "Python"
-      }
-  ]
+    "projects": [
+        {
+            "name": "Deforestation Detector",
+            "description": "A web app designed to promote awareness of deforestation in the amazon.",
+            "thumbnailImage": "/assets/png/DeforestationDetector.png",
+            "thumbnailScale": "1.2",
+            "liveURL": "https://deforestationdetector.com",
+            "sourceURL": "https://github.com/Deforestation-Detector/web",
+            "languages": [
+                "Javascript",
+                "Three.js",
+                "Python"
+            ]
+        },
+        {
+            "name": "Slug Cache",
+            "description": "A Geocaching app to encourage UCSC students to explore their gorgeous campus.",
+            "thumbnailImage": "/assets/png/SlugCache.png",
+            "thumbnailScale": "1.5",
+            "liveURL": "",
+            "sourceURL": "https://github.com/UCSC-Geocaching/slugcache",
+            "languages": [
+                "Python",
+                "Javascript",
+                "MapBox.js"
+            ]
+        },
+        {
+            "name": "Advent of Code",
+            "description": "My solutions to the 2022 Advent of Code, a collection of Christmas themed programming problems.",
+            "thumbnailImage": "/assets/png/AoC.png",
+            "thumbnailScale": "1",
+            "liveURL": "",
+            "sourceURL": "https://github.com/ChristopherSterza/advent-of-code-2022",
+            "languages": [
+                "Python"
+            ]
+        }
+    ]
 }
