@@ -1,25 +1,46 @@
 {
-  "skills": [
-      {
-          "name": "Programming & Software Development",
-          "knowledgeLevel": 85,
-          "labels": [
-              "rust",
-              "ruby",
-              "bash",
-              "qml",
-              "neovim",
-              "vscode"
-          ]
-      },
-      {
-          "name": "Linux & Free Software",
-          "knowledgeLevel": 85,
-          "labels": [
-              "arch linux",
-              "kde",
-              "bash"
-          ]
-      }
-  ]
+    "skills": [
+        {
+            "name": "Web Development",
+            "knowledgeLevel": 70,
+            "labels": [
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Nodejs",
+                "Typescript",
+                "React",
+                "Tailwind",
+                "mongodb"
+            ]
+        },
+        {
+            "name": "Linux & Development Tools",
+            "knowledgeLevel": 60,
+            "labels": [
+                "linux",
+                "bash",
+                "git",
+                "vscode"
+            ]
+        },
+        {
+            "name": "Graphic Design",
+            "knowledgeLevel": 45,
+            "labels": [
+                "Figma",
+                "Adobe Photoshop",
+                "Adobe Illustrator"
+            ]
+        },
+        {
+            "name": "Computer Graphics",
+            "knowledgeLevel": 30,
+            "labels": [
+                "p5js",
+                "threejs",
+                "blender"
+            ]
+        }
+    ]
 }
