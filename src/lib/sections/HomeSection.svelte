@@ -4,6 +4,8 @@
   let linkedinURL = 'https://www.linkedin.com/in/christophersterza';
   let githubURL = 'https://github.com/christophersterza';
   let twitterURL = 'https://twitter.com/ChrisSterza';
+  let projectSection = document.getElementById('ProjectSection');
+  let skillSection = document.getElementById('SkillSection');
 </script>
 
 <section
@@ -78,11 +80,17 @@
       <div class="flex flex-col gap-4 mb-6 sm:flex-row">
         <button
           class="w-11/12 bg-lime-600 rounded-full px-4 py-1 text-lg font-semibold sm:w-1/2 hover:bg-lime-800 transition ease-in-out duration-200 hover:-skew-y-[8deg] hover:rotate-[8deg]"
+          on:click={() => {
+            projectSection.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           Projects
         </button>
         <button
-          class="w-11/12 bg-lime-600 rounded-full px-4 py-1 text-lg font-semibold sm:w-1/2 hover:bg-lime-800 transition ease-in-out duration-200 hover:-skew-y-[8deg] hover:rotate-[8deg]"
+          class="flex justify-center w-11/12 bg-lime-600 rounded-full px-4 py-1 text-lg font-semibold sm:w-1/2 hover:bg-lime-800 transition ease-in-out duration-200 hover:-skew-y-[8deg] hover:rotate-[8deg]"
+          on:click={() => {
+            skillSection.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           Skills
         </button>

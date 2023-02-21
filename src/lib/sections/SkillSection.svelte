@@ -9,7 +9,7 @@
   });
 </script>
 
-<section class="container flex flex-col mx-auto text-white">
+<section id="SkillSection" class="container flex flex-col mx-auto text-white">
   <div class="flex flex-col pt-40 mx-4 sm:border-l-4 sm:border-lime-400">
     <!-- Dot -->
     <span

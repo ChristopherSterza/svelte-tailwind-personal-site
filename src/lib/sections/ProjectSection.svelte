@@ -4,7 +4,7 @@
   let projects = projectData.projects;
 </script>
 
-<section class="container flex flex-col mx-auto text-white">
+<section id="ProjectSection" class="container flex flex-col mx-auto text-white">
   <div
     class="flex flex-col mx-4 mt-40 sm:mt-0 sm:border-l-4 sm:border-lime-400"
   >
