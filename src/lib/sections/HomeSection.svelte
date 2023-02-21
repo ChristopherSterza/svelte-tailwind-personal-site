@@ -7,7 +7,7 @@
 </script>
 
 <section
-  class="container h-screen mx-auto flex flex-col justify-center text-white"
+  class="container flex flex-col justify-center h-screen mx-auto text-white"
 >
   <!-- Spacer -->
   <div class="h-[35%]" />
@@ -15,7 +15,7 @@
     <span
       class="hidden relative w-[20px] h-[20px] bg-lime-400 rounded-full -left-3 shrink-0 sm:block"
     />
-    <div class="ml-4 w-fit flex flex-col sm:ml-20">
+    <div class="flex flex-col ml-4 w-fit sm:ml-20">
       <!-- Headshot -->
       <div id="headshotWrapper" class="mb-8 -mt-48">
         <Headshot />
@@ -34,7 +34,7 @@
       </p>
 
       <!-- Description List -->
-      <ul class="list-inside list text-lime-400 text-xl mb-6">
+      <ul class="mb-6 text-xl list-inside list text-lime-400">
         <li class="flex flex-row items-center">
           <span
             class="block w-[12px] h-[3px] mr-4 bg-lime-400 rounded-full shrink-0"
@@ -59,17 +59,17 @@
       <div class="flex flex-row mb-6">
         <a href={linkedinURL} target="_blank" rel="noreferrer">
           <i
-            class="bx bxl-linkedin text-5xl mr-2 opacity-60 hover:opacity-100 transition ease-in-out duration-300"
+            class="mr-2 text-5xl transition duration-300 ease-in-out bx bxl-linkedin opacity-60 hover:opacity-100"
           />
         </a>
         <a href={githubURL} target="_blank" rel="noreferrer">
           <i
-            class="bx bxl-github text-5xl mr-2 opacity-60 hover:opacity-100 transition ease-in-out duration-300"
+            class="mr-2 text-5xl transition duration-300 ease-in-out bx bxl-github opacity-60 hover:opacity-100"
           />
         </a>
         <a href={twitterURL} target="_blank" rel="noreferrer">
           <i
-            class="bx bxl-twitter text-5xl mr-2 opacity-60 hover:opacity-100 transition ease-in-out duration-300"
+            class="mr-2 text-5xl transition duration-300 ease-in-out bx bxl-twitter opacity-60 hover:opacity-100"
           />
         </a>
       </div>
