@@ -23,7 +23,7 @@
   />
   <div
     id="content"
-    class="flex-col w-full h-full p-3 justify-end hidden relative group-hover:flex"
+    class="relative flex-col justify-end hidden w-full h-full p-3 group-hover:flex"
   >
     <!-- Name and Description -->
     {#if name}
@@ -40,9 +40,9 @@
             href={liveURL}
             target="_blank"
             rel="noreferrer"
-            class="flex items-center px-3 py-2 bg-lime-500 hover:bg-lime-600 rounded-lg"
+            class="flex items-center px-3 py-2 rounded-lg bg-lime-500 hover:bg-lime-600"
           >
-            <i class="bx bx-world px-1" />
+            <i class="px-1 bx bx-world" />
             <p>LIVE SITE</p>
           </a>
         {/if}
@@ -51,9 +51,9 @@
             href={sourceURL}
             target="_blank"
             rel="noreferrer"
-            class="flex items-center px-3 py-2 bg-lime-500 hover:bg-lime-600 rounded-lg"
+            class="flex items-center px-3 py-2 rounded-lg bg-lime-500 hover:bg-lime-600"
           >
-            <i class="bx bx-code pr-2" />
+            <i class="pr-2 bx bx-code" />
             <p>SOURCE</p>
           </a>
         {/if}

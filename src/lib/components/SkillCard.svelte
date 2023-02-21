@@ -10,7 +10,7 @@
   class="flex flex-col w-full p-6 bg-[#313131] overflow-hidden sm:-skew-x-[5deg] rounded-lg"
 >
   <!-- Skill Name -->
-  <h1 class="text-2xl mb-6 font-semibold sm:text-3xl">{name}</h1>
+  <h1 class="mb-6 text-2xl font-semibold sm:text-3xl">{name}</h1>
   <!-- Knowledge Bar -->
   <div id="knowledgeBarWrapper" class="relative w-full h-[15px] mb-1">
     <div
@@ -19,14 +19,14 @@
     />
     <div
       id="knowledgeBarForeground"
-      class="absolute h-full bg-lime-400 shadow-lg shadow-lime-800 rounded-l-lg rounded-r-lg"
+      class="absolute h-full rounded-l-lg rounded-r-lg shadow-lg bg-lime-400 shadow-lime-800"
       style="width: {knowledgeLevel}%;"
     />
   </div>
   <div class="flex flex-row justify-between mb-4 text-gray-300">
-    <p class="text-xs sm:text-base uppercase font-semibold">Beginner</p>
-    <p class="hidden uppercase font-semibold sm:inline">Intermediate</p>
-    <p class="text-xs sm:text-base uppercase font-semibold">Advanced</p>
+    <p class="text-xs font-semibold uppercase sm:text-base">Beginner</p>
+    <p class="hidden font-semibold uppercase sm:inline">Intermediate</p>
+    <p class="text-xs font-semibold uppercase sm:text-base">Advanced</p>
   </div>
 
   <div class="flex flex-row flex-wrap">
