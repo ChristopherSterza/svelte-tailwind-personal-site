@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte';
   import BackgroundComponent from '../lib/components/BackgroundComponent.svelte';
   import Footer from '../lib/components/Footer.svelte';
   import LoadingScreen from '../lib/components/LoadingScreen.svelte';
@@ -7,6 +8,21 @@
   import SkillSection from '../lib/sections/SkillSection.svelte';
 
   let isLoading = true;
+
+  onMount(() => {
+    let projectSection = document.getElementById('ProjectSection');
+    let skillSection = document.getElementById('SkillSection');
+
+    let projectButton = document.getElementById('projectButton');
+    let skillButton = document.getElementById('skillButton');
+
+    projectButton.onclick = () => {
+      projectSection.scrollIntoView({ behavior: 'smooth' });
+    };
+    skillButton.onclick = () => {
+      skillSection.scrollIntoView({ behavior: 'smooth' });
+    };
+  });
 </script>
 
 <svelte:head>

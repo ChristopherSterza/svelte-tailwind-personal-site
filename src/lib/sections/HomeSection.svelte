@@ -77,12 +77,14 @@
       <!-- Buttons -->
       <div class="flex flex-col gap-4 mb-6 sm:flex-row">
         <button
+          id="projectButton"
           class="w-11/12 bg-lime-600 rounded-full px-4 py-1 text-lg font-semibold sm:w-1/2 hover:bg-lime-800 transition ease-in-out duration-200 hover:-skew-y-[8deg] hover:rotate-[8deg]"
         >
           Projects
         </button>
         <button
-          class="w-11/12 bg-lime-600 rounded-full px-4 py-1 text-lg font-semibold sm:w-1/2 hover:bg-lime-800 transition ease-in-out duration-200 hover:-skew-y-[8deg] hover:rotate-[8deg]"
+          id="skillButton"
+          class="flex justify-center w-11/12 bg-lime-600 rounded-full px-4 py-1 text-lg font-semibold sm:w-1/2 hover:bg-lime-800 transition ease-in-out duration-200 hover:-skew-y-[8deg] hover:rotate-[8deg]"
         >
           Skills
         </button>
