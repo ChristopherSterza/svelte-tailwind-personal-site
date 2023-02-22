@@ -1,17 +1,17 @@
 <script>
   import { onMount } from 'svelte';
   import BackgroundComponent from '../lib/components/BackgroundComponent.svelte';
-  import Footer from '../lib/components/Footer.svelte';
   import LoadingScreen from '../lib/components/LoadingScreen.svelte';
   import HomeSection from '../lib/sections/HomeSection.svelte';
   import ProjectSection from '../lib/sections/ProjectSection.svelte';
   import SkillSection from '../lib/sections/SkillSection.svelte';
+  import Footer from '../lib/components/Footer.svelte';
 
   let isLoading = true;
 
   onMount(() => {
-    let projectSection = document.getElementById('ProjectSection');
-    let skillSection = document.getElementById('SkillSection');
+    let projectSection = document.getElementById('projectAnchor');
+    let skillSection = document.getElementById('skillAnchor');
 
     let projectButton = document.getElementById('projectButton');
     let skillButton = document.getElementById('skillButton');
