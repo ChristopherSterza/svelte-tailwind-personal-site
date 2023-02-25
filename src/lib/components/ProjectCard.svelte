@@ -14,6 +14,7 @@
 
 <div
   class="flex w-[500px] min-w-[300px] max-w-full aspect-[1.61/1] relative overflow-hidden group sm:-skew-x-[5deg] rounded-lg"
+  data-animate
 >
   <img
     src={thumbnail}
@@ -23,7 +24,7 @@
   />
   <div
     id="content"
-    class="relative flex-col justify-end hidden w-full h-full p-3 group-hover:flex"
+    class="relative flex flex-col justify-end w-full h-full p-3 transition-all duration-200 ease-in-out opacity-0 -translate-x-1/4 group-hover:opacity-100 group-hover:translate-x-0"
   >
     <!-- Name and Description -->
     {#if name}

@@ -7,10 +7,12 @@
 
 <div id="projectAnchor" />
 <Section>
-  <h1 class="mb-2 text-6xl font-medium">Projects</h1>
-  <h2 class="mb-16 text-xl">
-    Here are some of my projects. Hover them for more information.
-  </h2>
+  <div id="headerWrapper" data-animate>
+    <h1 class="mb-2 text-6xl font-medium">Projects</h1>
+    <h2 class="mb-16 text-xl">
+      Here are some of my projects. Hover them for more information.
+    </h2>
+  </div>
 
   <!-- Project cards -->
   <div id="projectList" class="flex flex-row flex-wrap w-full gap-x-8 gap-y-7">
