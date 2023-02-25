@@ -12,10 +12,12 @@
 
 <div id="skillAnchor" />
 <Section isBottom={true}>
-  <h1 class="mb-2 text-6xl font-medium">Skills</h1>
-  <h2 class="mb-16 text-xl">
-    Here are some of my skills and areas of knowledge.
-  </h2>
+  <div id="headerWrapper" data-animate>
+    <h1 class="mb-2 text-6xl font-medium">Skills</h1>
+    <h2 class="mb-16 text-xl">
+      Here are some of my skills and areas of knowledge.
+    </h2>
+  </div>
 
   <!-- Skill cards -->
   <div class="flex flex-col gap-y-7">

@@ -8,6 +8,7 @@
 
 <div
   class="flex flex-col w-full p-6 bg-[#313131] overflow-hidden sm:-skew-x-[5deg] rounded-lg"
+  data-animate
 >
   <!-- Skill Name -->
   <h1 class="mb-6 text-2xl font-semibold sm:text-3xl">{name}</h1>

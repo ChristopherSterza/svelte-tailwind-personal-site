@@ -10,6 +10,7 @@
   let isLoading = true;
 
   onMount(() => {
+    // Set the button behavior
     let projectSection = document.getElementById('projectAnchor');
     let skillSection = document.getElementById('skillAnchor');
 
@@ -22,6 +23,24 @@
     skillButton.onclick = () => {
       skillSection.scrollIntoView({ behavior: 'smooth' });
     };
+
+    // Intersection Observer to handle animations
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry, idx) => {
+          if (entry.isIntersecting)
+            setTimeout(() => {
+              entry.target.classList.add('animated');
+              observer.unobserve(entry.target);
+            }, idx * 350);
+        });
+      },
+      { threshold: 0.25 }
+    );
+
+    document.querySelectorAll('[data-animate]').forEach((el) => {
+      observer.observe(el);
+    });
   });
 </script>
 
@@ -40,3 +59,26 @@
   <SkillSection />
   <Footer />
 </main>
+
+<style>
+  :global([data-animate]) {
+    opacity: 0;
+    position: relative;
+    left: -15%;
+    transition-duration: 350ms;
+    transition-delay: 35ms;
+  }
+  :global(.animated) {
+    opacity: 1;
+    left: 0;
+  }
+  :global([data-animate='fade']) {
+    opacity: 0;
+    position: relative;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+  }
+  :global(.animated[data-animate='fade']) {
+    opacity: 1;
+  }
+</style>
