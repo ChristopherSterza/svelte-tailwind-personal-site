@@ -46,7 +46,7 @@
         <span
           class="block w-[12px] h-[3px] mr-4 bg-lime-400 rounded-full shrink-0"
         />
-        <span class="block font-normal">animal lover</span>
+        <span class="block font-normal">animal enthusiast</span>
       </li>
     </ul>
 
