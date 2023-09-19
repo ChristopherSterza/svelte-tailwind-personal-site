@@ -18,7 +18,7 @@
             "description": "A Geocaching app to encourage UCSC students to explore their gorgeous campus.",
             "thumbnailImage": "/assets/png/SlugCache.png",
             "thumbnailScale": "1.5",
-            "liveURL": "",
+            "liveURL": "https://slug-cache-personal.wl.r.appspot.com",
             "sourceURL": "https://github.com/UCSC-Geocaching/slugcache",
             "languages": [
                 "Python",
