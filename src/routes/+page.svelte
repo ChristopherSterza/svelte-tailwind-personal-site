@@ -46,6 +46,10 @@
 
 <svelte:head>
   <title>Hello, I'm Chris Sterza</title>
+  <meta
+    name="description"
+    content="Explore my portfolio! I’m a web developer specializing in TypeScript and React, with a passion for creative coding and fun, innovative designs. I love tackling challenges with a creative mindset to build engaging and user-friendly web experiences. Check out my work and let’s bring some creativity to the web!"
+  />
 </svelte:head>
 
 <!-- TODO: Create minimum loading time so screen doesn't flash the loading page -->
