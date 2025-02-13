@@ -34,13 +34,13 @@
         <span
           class="block w-[12px] h-[3px] mr-4 bg-lime-400 rounded-full shrink-0"
         />
-        <span class="block font-normal">full stack developer</span>
+        <span class="block font-normal">physics teacher</span>
       </li>
       <li class="flex flex-row items-center">
         <span
           class="block w-[12px] h-[3px] mr-4 bg-lime-400 rounded-full shrink-0"
         />
-        <span class="block font-normal">designer</span>
+        <span class="block font-normal">full stack developer</span>
       </li>
       <li class="flex flex-row items-center">
         <span
